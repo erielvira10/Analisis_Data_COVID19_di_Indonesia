@@ -12,3 +12,4 @@ cov_jabar_akumulasi_pivot <-
     kategori = sub(pattern = "akumulasi_", replacement = "", kategori)
   )
 dim(cov_jabar_akumulasi_pivot)
+glimpse(cov_jabar_akumulasi_pivot)
